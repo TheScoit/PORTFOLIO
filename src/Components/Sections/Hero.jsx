@@ -7,6 +7,7 @@ import {Tilt} from 'react-tilt'
 import StarCanvas from '../canvas/Stars.jsx'
 import {motion} from 'framer-motion';
 import {headContainerAnimation, headContentAnimation, headTextAnimation} from '../../utils/motion.js'
+import MainImg from '../../assets/main.png'
 const HeroContainer = styled.div`   
 display:flex;
 justify-content: center;
@@ -273,7 +274,7 @@ const Hero = () => {
       <HeroRightContainer>
       <motion.div {...headContentAnimation}>
          <Tilt>
-         <Img src="https://harris-johnsen.netlify.app/assets/hero-img-Cqh1d5RO.png" alt="Farhan Shaikh"/>
+         <Img src={MainImg} alt="Farhan Shaikh"/>
          </Tilt>
          </motion.div>
     </HeroRightContainer>
