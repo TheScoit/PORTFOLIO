@@ -8,13 +8,13 @@ import StarsCanvas from "./Components/canvas/Stars";
 
 import { AnimatePresence } from "framer-motion";
 import Education from './Components/Sections/Education'
-// import Projects from './Components/Sections/Projects'
+import Projects from './Components/Sections/Projects'
 // import Experience from "./components/sections/Experience";
 
 import Contact from "./Components/Sections/Contact";
 import Footer from "./Components/Sections/Footer";
-// import ProjectDetails from "./Components/Dialog/ProjectDetails";
-// import { useState } from "react";
+import ProjectDetails from "./Components/Dialog/ProjectDetails";
+import { useState } from "react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -40,7 +40,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  // const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
@@ -54,19 +54,19 @@ function App() {
                 <Skills />
                 {/* <Experience /> */}
               </Wrapper>
-              {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
+              <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
                 <Education />
                 <Contact />
               </Wrapper>
               <Footer />
 
-              {/* {openModal.state && (
+              {openModal.state && (
                 <ProjectDetails
                   openModal={openModal}
                   setOpenModal={setOpenModal}
                 />
-              )} */}
+              )}
             </div>
           </AnimatePresence>
         </Body>

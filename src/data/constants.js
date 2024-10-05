@@ -1,3 +1,4 @@
+import JobImage from '../assets/JobPortal.png'
 export const Bio = {
   name: "Farhan Shaikh",
   roles: [
@@ -410,8 +411,7 @@ export const projects = [
     date: "Jan 2024 - Dec 2023",
     description:
       "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-    image:
-      "https://github.com/TheScoit/PORTFOLIO/assets/JobPortal.png",
+    image:"https://github.com/TheScoit/PORTFOLIO/blob/main/src/assets/JobPortal.png?raw=true",
     tags: [
       "React Js",
       "PostgressSQL",
