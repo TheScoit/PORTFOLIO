@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile professional, always eager to embrace new challenges. Driven by a passion for learning, I am dedicated to delivering high-quality results consistently. With a positive attitude and a growth mindset, I am committed to making meaningful contributions and achieving remarkable success.",
   github: "https://github.com/TheScoit",
   resume:
-    "",
+    "file:///C:/Users/Farhan/Desktop/Portfolio.pdf",
   linkedin: "https://www.linkedin.com/in/farhan-shaikh-2289a9240/",
   twitter: "https://twitter.com/Celestial_2409",
   insta: "https://www.instagram.com/farhan___shaikh__10/",
