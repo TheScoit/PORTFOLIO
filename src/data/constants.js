@@ -430,7 +430,7 @@ export const projects = [
     description:
       "Detoxify is a web application designed to ",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://github.com/TheScoit/PORTFOLIO/blob/main/src/assets/Detoxify.png?raw=true",
     tags: [
       "React Js",
       "MongoDb",
