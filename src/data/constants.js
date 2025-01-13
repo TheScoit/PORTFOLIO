@@ -428,7 +428,7 @@ export const projects = [
     title: "Detoxify",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Detoxify is a web application designed to ",
+      "Detoxify is an intelligent web application designed to simplify the process of searching and understanding various topics. It empowers users by providing curated, accurate, and relevant information on a wide range of subjects. The platform acts as a knowledge hub, making it easy to access and digest complex information.",
     image:
       "https://github.com/TheScoit/PORTFOLIO/blob/main/src/assets/Detoxify.png?raw=true",
     tags: [
@@ -436,6 +436,7 @@ export const projects = [
       "MongoDb",
       "Node Js",
       "Express Js",
+      "Tailwind Css"
     ],
     category: "web app",
     github: "https://github.com/TheScoit/Detox_Frontend",
@@ -448,7 +449,14 @@ export const projects = [
     description:
     " Legal Sathi is a web-based platform designed to simplify legal processes by connecting individuals and businesses with legal professionals. The platform provides tools for case management, document preparation, consultation booking, and real-time updates, ensuring a seamless legal experience for users.",
     image:
-    "https://github.com/TheScoit/PORTFOLIO/blob/main/src/assets/Lawsuit.png/raw=true",
+    "https://github.com/TheScoit/PORTFOLIO/blob/main/src/assets/Lawsuit.png?raw=true",
+    tags: [
+      "CSS",
+      "React Js"
+    ],
+    category : "web app",
+    github: "https://github.com/TheScoit/LEGAL_SATHI_NEW",
+    webapp: "https://legalsathi.onrender.com"
   }
 ];
 
