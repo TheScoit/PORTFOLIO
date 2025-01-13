@@ -3,6 +3,7 @@ import styled, { useTheme } from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Bio } from '../data/constants.js';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 const MobileIcon = styled.div`
   color: ${({ theme }) => theme.text_primary};
@@ -138,6 +139,10 @@ const Navbar = () => {
           <MenuIcon style={{ color: 'inherit' }} />
         </MobileIcon>
 
+        {/* <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+          <CloseIcon style={{ color: 'inherit' }} />
+        </MobileIcon> */}
+
         <NavItems>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -146,7 +151,8 @@ const Navbar = () => {
           <NavLink href="#Education">Education</NavLink>
         </NavItems>
 
-        {isOpen && (
+        {
+        isOpen   && (
           <MobileMenu isOpen={isOpen}>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#About">About</NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">Skills</NavLink>

@@ -134,6 +134,10 @@ const Subtitle = styled.div`
     @media(max-width:640px){
     font-size : 16px;
     line-height: 32px;
+    text-align: justify;
+    padding:0px 5px;
+    
+   line-height: 27px;
     
     }
 `;

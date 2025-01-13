@@ -12,6 +12,7 @@ position: relative;
 z-index: 1;
 padding: 0 16px;
 align-items: center;
+
 `;
 const Wrapper = styled.div`
   position: relative;
@@ -91,6 +92,7 @@ const CardContainer = styled.div`
   align-items: center;
   gap: 28px;
   flex-wrap: wrap;
+ 
 `;
 
 const Projects = ({ openModal, setOpenModal }) => {
